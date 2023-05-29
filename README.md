@@ -1,3 +1,51 @@
+# DevOps Project: Dockerized Python Url Flask App
+
+This project depicts the deployment of a Python Flask app using Docker.
+
+## Prerequisites
+
+- Docker: Install Docker on your machine. Refer to the official Docker documentation for installation instructions: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
+
+## Getting Started
+
+Follow the steps below to run the Dockerized Python Flask app locally:
+
+1. Clone the repository:
+
+   ```shell
+   git clone https://github.com/your-username/devops-docker-flask-app.git
+   ```
+2. Navigate to the project directory:
+    cd devops-docker-flask-app
+3. Build docker image
+    docker build -t flask-app .
+4. Run the Docker container
+    docker run -p 5000:5000 flask-app
+    The Flask app will be accessible at http://localhost:5000.
+    
+## Project Structure
+    The project directory structure is as follows:
+    ```
+    ├── app
+    │   ├── static
+    │   ├── templates
+    │   ├── Dockerfile
+    │   ├── requirements.txt
+    │   └── app.py
+    ├── .gitignore
+    └── README.md
+    ```
+## Customize and Extend
+    Feel free to customize and extend this project according to your requirements. You can modify the Flask app code, add new routes, templates, static files, or any other             functionality as needed.
+
+## Contributing
+    Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+    This project is licensed under the MIT License.
+    Feel free to modify the README file according to your specific project details and requirements.
+
+
 # Your Resume API on Azure Serverless
 
 Create an [API](https://learn.microsoft.com/training/modules/build-api-azure-functions/3-overview-api) with Azure Function that displays your resume information in json. 
