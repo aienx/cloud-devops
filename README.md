@@ -1,6 +1,16 @@
-# DevOps Dockerized Python Url Flask App
+# DevOps Portfolio
 
-This project depicts the deployment of a Python Flask app using Docker.
+A collection of selected deployment and devops projects to demonstrate skill sets, knowledge and others.
+
+## Contents
+- Cloud Platforms: Popular cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, or Google Cloud Platform (GCP). 
+  Utilize services, such as EC2, S3, RDS, Lambda, or App Engine, to deploy and manage applications in the cloud.
+- Containerization: Containerization technologies like Docker and container orchestration platforms like Kubernetes. 
+  Packaged applications into containers, created Docker images, and deployed them to Kubernetes clusters.
+- Continuous Integration and Continuous Deployment (CI/CD): Setting up CI/CD pipelines using tools like Jenkins, GitLab CI/CD, CircleCI, or Travis CI. 
+  Automate builds, test, and deployment processes to ensure efficient and reliable software delivery.
+
+# Containerized python application deployed on render
 
 ## Prerequisites
 
@@ -25,7 +35,6 @@ Follow the steps below to run the Dockerized Python Flask app locally:
     
 ## Project Structure
     The project directory structure is as follows:
-    ```
     ├── app
     │   ├── static
     │   ├── templates
@@ -34,8 +43,8 @@ Follow the steps below to run the Dockerized Python Flask app locally:
     │   └── app.py
     ├── .gitignore
     └── README.md
-    ```
-## Customize and Extend
+ 
+ ## Customize and Extend
     Feel free to customize and extend this project according to your requirements. You can modify the Flask app code, add 
     new routes, templates, static files, or any other functionality as needed.
 
@@ -45,8 +54,7 @@ Follow the steps below to run the Dockerized Python Flask app locally:
 ## License
     This project is licensed under the MIT License.
     Feel free to modify the README file according to your specific project details and requirements.
-
-
+    
 # Resume API on Azure Serverless
 
 Create an [API](https://learn.microsoft.com/training/modules/build-api-azure-functions/3-overview-api) with Azure Function that displays your resume information in json. 
