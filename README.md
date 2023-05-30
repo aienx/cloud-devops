@@ -10,7 +10,7 @@ A collection of selected deployment and devops projects to demonstrate skill set
 - Continuous Integration and Continuous Deployment (CI/CD): Setting up CI/CD pipelines using tools like Jenkins, GitLab CI/CD, CircleCI, or Travis CI. 
   Automate builds, test, and deployment processes to ensure efficient and reliable software delivery.
 
-# Containerized python application deployed on render
+# Containerized web app deployed to render
 
 ## Prerequisites
 
